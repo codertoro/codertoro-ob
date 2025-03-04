@@ -1,11 +1,11 @@
 ---
-{"type":"blog","title":"017-Karabiner-Elements入门","tags":["blog/tutorial"],"categories":["技术教程","博客搭建"],"highlight_shrink":false,"toc_expand":false,"abbrlink":"3b767db4","establish":"2023-06-16 21:13:30","cover":null,"dg-publish":true,"permalink":"/Blog/017-Karabiner-Elements入门/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.135+08:00","updated":"2025-03-03T20:51:24.722+08:00"}
+{"type":"blog","title":"017-Karabiner-Elements入门","tags":["blog/tutorial"],"categories":["技术教程","博客搭建"],"highlight_shrink":false,"toc_expand":false,"abbrlink":"3b767db4","establish":"2023-06-16 21:13:30","cover":null,"dg-publish":true,"permalink":"/Blog/017-Karabiner-Elements入门/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.135+08:00","updated":"2025-03-04T19:03:22.970+08:00"}
 ---
 
 [toc]
 
 
-# 1. 一. 什么是 Karabiner-Elements？
+# 1. 什么是 Karabiner-Elements？
 
 Karabiner-Elements （下面我们简称为Karabiner）官网对自己的描述是 “A powerful and stable keyboard customizer for macOS.”，我使用下来的感受是 Karabiner-Elements 是 macOS 平台上一款非常强大的键位映射工具，没有吹嘘的成分，买家秀和卖家秀是一样的。
 
@@ -22,7 +22,7 @@ Karabiner-Elements （下面我们简称为Karabiner）官网对自己的描述�
 
 
 
-# 2. 二. 若干示例(持续更新)
+# 2. 若干示例(持续更新)
 
 ## 2.1. 将1个键映射成n个键的组合
 

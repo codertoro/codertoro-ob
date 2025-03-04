@@ -1,10 +1,10 @@
 ---
-{"type":"blog","title":"002-Typora入门","tags":["blog/software","blog/tutorial"],"cover":"https://codertoro-img01.s3.ladydaily.com/img/material/Typora%E5%85%A5%E9%97%A8.jpg","categories":["学习笔记","软件使用"],"abbrlink":"72e451f7","establish":"2022-01-25 17:37:34","dg-publish":true,"permalink":"/Blog/002-Typora入门/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.114+08:00","updated":"2025-03-03T20:52:54.781+08:00"}
+{"type":"blog","title":"002-Typora入门","tags":["blog/software","blog/tutorial"],"cover":"https://codertoro-img01.s3.ladydaily.com/img/material/Typora%E5%85%A5%E9%97%A8.jpg","categories":["学习笔记","软件使用"],"abbrlink":"72e451f7","establish":"2022-01-25 17:37:34","dg-publish":true,"permalink":"/Blog/002-Typora入门/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.114+08:00","updated":"2025-03-04T18:49:28.244+08:00"}
 ---
 
 
 <!-- [toc] -->
-## 0.1. 一. 简介
+# 1. 简介
 
 Typora是一款轻便简洁的Markdown编辑器，支持即时渲染技术，这也是与其他Markdown编辑器最显著的区别。即时渲染使得你写Markdown就想是写Word文档一样流畅自如，不像其他编辑器的有编辑栏和显示栏。
 
@@ -13,7 +13,7 @@ Typora是一款轻便简洁的Markdown编辑器，支持即时渲染技术，这
 
 <!--more-->
 
-## 0.2. 二. Markdown介绍
+# 2. Markdown介绍
 
 Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
 
@@ -23,7 +23,7 @@ Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多�
 
 Markdown 编写的文档后缀为 `.md`, `.markdown`。
 
-## 0.3. 三. 常用快捷键
+# 3. 常用快捷键
 
 - 加粗： `Ctrl + B`
 
@@ -59,10 +59,9 @@ Markdown 编写的文档后缀为 `.md`, `.markdown`。
   
   注：一些实体符号需要在实体符号之前加”\”才能够显示
   ```
+## 3.1. 块元素
 
-## 0.4. 四. 块元素
-
-## 0.5. 五. 换行符
+# 4. 换行符
 
 ![安心做好每一件事](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.win4000.com%2Fm00%2Fe7%2Ff5%2F4be82635b9cf81ffdc1dd0e0f0204b51.jpg&refer=http%3A%2F%2Fpic1.win4000.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1645694064&t=bc265aaab10d314814efd4305cca53b8)
 

@@ -1,45 +1,45 @@
 ---
-{"type":"blog","title":"010-基于Hexo搭建个人博客","tags":["blog/tutorial"],"cover":"https://codertoro-img01.s3.ladydaily.com/img/material/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.jpg","categories":["技术教程","博客搭建"],"abbrlink":"d90dd0c3","establish":"2023-01-13 22:37:33","dg-publish":true,"permalink":"/Blog/010-基于Hexo搭建个人博客/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.123+08:00","updated":"2025-03-03T20:52:10.861+08:00"}
+{"type":"blog","title":"010-基于Hexo搭建个人博客","tags":["blog/tutorial"],"cover":"https://codertoro-img01.s3.ladydaily.com/img/material/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.jpg","categories":["技术教程","博客搭建"],"abbrlink":"d90dd0c3","establish":"2023-01-13 22:37:33","dg-publish":true,"permalink":"/Blog/010-基于Hexo搭建个人博客/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.123+08:00","updated":"2025-03-04T18:41:22.660+08:00"}
 ---
 
 <!-- [toc] -->
-## 0.1. 一. 安装Node.js
+# 1. 安装Node.js
 前往官网www.nodejs.org 下载xx.xx.xx LTS(长期支持版本)
 
-## 0.2. 二. 打开终端
+# 2. 打开终端
 
-### 0.2.1. 进入管理员模式
+## 2.1. 进入管理员模式
 ``` bash
 sudo su
 #输入密码
 ```
 <!--more-->
 
-### 0.2.2. 检查版本
+## 2.2. 检查版本
 ``` bash
 node -v
 npm -v
 ```
-### 0.2.3. 下载cnpm
+## 2.3. 下载cnpm
 ``` bash
 npm install -g cnpm --registry=https//registry.npm.taobao.org
 cnpm -v
 ```
-### 0.2.4. 安装hexo
+## 2.4. 安装hexo
 ``` bash
 cnpm install -g hexo-cli
 hexo -v
 ```
 
-## 0.3. 三. 创建博客目录
+# 3. 创建博客目录
 
-### 0.3.1. 创建空文件夹
+## 3.1. 创建空文件夹
 ``` bash
 mkdir myblog
 ```
 注：myblog为文件夹名，可自定义
 
-### 0.3.2. 初始化博客
+## 3.2. 初始化博客
 ``` bash
 cd myblog
 pwd
@@ -49,25 +49,25 @@ sudo hexo init
 #INFO start blogging with hexo
 ```
 
-### 0.3.3. 启动博客
+## 3.3. 启动博客
 ``` bash
 hexo s
 #复制4000端口的本地地址，在浏览器中打开
 ```
 
-## 0.4. 四. 写文章
+# 4. 写文章
 
-### 0.4.1. 新建md文件
+## 4.1. 新建md文件
 ``` bash
 hexo n "我的第一篇文章"
 ```
-### 0.4.2. 开始写作
+## 4.2. 开始写作
 
 - 使用 [MarkDown](https://hx.dcloud.net.cn/Tutorial/Language/markdown) 语法
 - 软件推荐:VSCode, HBuilderX, Typora(前两个免费，后一个也有免费版，我用的Typora，界面简洁)
 - 嵌入[图片](https://codertoro.gitee.io/2022/09/07/%E5%9F%BA%E4%BA%8Egithub%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0%E6%95%99%E7%A8%8B/)、[视频](https://codertoro.gitee.io/2022/09/06/%E8%A7%86%E9%A2%91%E4%B8%8A%E4%BC%A0%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B/)等方法请点击超链接
 
-### 0.4.3. 生成预览
+## 4.3. 生成预览
 ``` bash
 #在myblog目录下执行以下命令
 #清除缓冲（有害无益）
@@ -77,9 +77,8 @@ hexo g
 #预览
 hexo s
 ```
-## 0.5. 五. 部署到代码仓库
-
-### 0.5.1. 新建仓库
+# 5. 部署到代码仓库
+## 5.1. 新建仓库
 
 **使用Github**
 * 仓库名为：xxx.github.io(xxx为用户名)
@@ -91,13 +90,13 @@ hexo s
 * 仓库为public
 * 将来访问地址为 xxx.github.io
 
-### 0.5.2. 安装部署插件
+## 5.2. 安装部署插件
 ``` bash
 #在myblog目录下执行
 cnpm install --save hexo-deployer-git
 ```
 
-### 0.5.3. 配置_config.yml
+## 5.3. 配置_config.yml
 ``` bash
 theme: yilia
 # Deployment
@@ -118,13 +117,13 @@ deploy:
 
 
 
-### 0.5.4. 设置用户签名
+## 5.4. 设置用户签名
 ``` bash
 git config --global user.name "xxx"
 git config --global user.email "xxx@xxx"
 ```
 
-### 0.5.5. 一系列命令
+## 5.5. 一系列命令
 ``` bash
 #清除缓存
 hexo clean
@@ -136,7 +135,7 @@ hexo s
 hexo d
 ```
 
-## 0.6. 六. 设置yilia主题
+# 6. 设置yilia主题
 ``` bash
 #下载主题
 git clone https://github.com/litten/hexo-theme-yilia.git theme/yilia
@@ -144,14 +143,14 @@ git clone https://github.com/litten/hexo-theme-yilia.git theme/yilia
 #或者手动到github下载，可以安装插件来下载
 ```
 
-## 0.7. 七. 常见问题
-### 0.7.1. github连接失败
+# 7. 常见问题
+## 7.1. github连接失败
 GitHub是外网，访问速度慢，可以使用 [Steam++](https://steampp.net)进行加速，个人感觉比[uu加速器](https://uu.163.com/)的学术资源加速管用。不管怎么加速，访问速度还是不如gitee快，hexo d会经常出问题
 
-### 0.7.2. gitee的缺点
+## 7.2. gitee的缺点
 gitee虽然访问速度快，但gitee pages只能使用xxx.gitee.io访问，不能设置个性化域名。只有gitee pages pro可以设置个性化域名，但目前(2023.1.13)已经暂停向个人用户购买gitee pages pro的服务，只有企业版可以购买和使用。
 
-### 0.7.3. ssh免密登录
+## 7.3. ssh免密登录
 ``` bash
 #在终端超级用户下
 git config --list
