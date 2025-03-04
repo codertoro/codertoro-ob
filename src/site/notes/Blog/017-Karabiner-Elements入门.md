@@ -1,5 +1,5 @@
 ---
-{"type":"blog","title":"017-Karabiner-Elements入门","tags":["blog/tutorial"],"categories":["技术教程","博客搭建"],"highlight_shrink":false,"toc_expand":false,"abbrlink":"3b767db4","establish":"2023-06-16 21:13:30","cover":null,"dg-publish":true,"permalink":"/Blog/017-Karabiner-Elements入门/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-21T11:01:33.135+08:00","updated":"2025-03-03T20:51:24.722+08:00"}
+{"type":"blog","title":"017-Karabiner-Elements入门","tags":["blog/tutorial"],"categories":["技术教程","博客搭建"],"highlight_shrink":false,"toc_expand":false,"abbrlink":"3b767db4","establish":"2023-06-16 21:13:30","cover":null,"dg-publish":true,"permalink":"/Blog/017-Karabiner-Elements入门/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.135+08:00","updated":"2025-03-03T20:51:24.722+08:00"}
 ---
 
 [toc]

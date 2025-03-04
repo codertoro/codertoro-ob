@@ -1,5 +1,5 @@
 ---
-{"type":"blog","title":"002-Typora入门","tags":["blog/software","blog/tutorial"],"cover":"https://codertoro-img01.s3.ladydaily.com/img/material/Typora%E5%85%A5%E9%97%A8.jpg","categories":["学习笔记","软件使用"],"abbrlink":"72e451f7","establish":"2022-01-25 17:37:34","dg-publish":true,"permalink":"/Blog/002-Typora入门/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-21T11:01:33.114+08:00","updated":"2025-03-03T20:52:54.781+08:00"}
+{"type":"blog","title":"002-Typora入门","tags":["blog/software","blog/tutorial"],"cover":"https://codertoro-img01.s3.ladydaily.com/img/material/Typora%E5%85%A5%E9%97%A8.jpg","categories":["学习笔记","软件使用"],"abbrlink":"72e451f7","establish":"2022-01-25 17:37:34","dg-publish":true,"permalink":"/Blog/002-Typora入门/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.114+08:00","updated":"2025-03-03T20:52:54.781+08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"type":"blog","title":"004-hexo搭建博客","tags":["blog/tutorial"],"cover":"https://codertoro-img01.s3.ladydaily.com/img/backbround_img/iShot_2023-01-28_16.32.41.png","categories":["技术教程","博客搭建"],"abbrlink":"b37651","establish":"2022-02-23 22:10:53","dg-publish":true,"permalink":"/Blog/004-hexo搭建博客/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-21T11:01:33.112+08:00","updated":"2025-03-03T20:52:44.982+08:00"}
+{"type":"blog","title":"004-hexo搭建博客","tags":["blog/tutorial"],"cover":"https://codertoro-img01.s3.ladydaily.com/img/backbround_img/iShot_2023-01-28_16.32.41.png","categories":["技术教程","博客搭建"],"abbrlink":"b37651","establish":"2022-02-23 22:10:53","dg-publish":true,"permalink":"/Blog/004-hexo搭建博客/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.112+08:00","updated":"2025-03-03T20:52:44.982+08:00"}
 ---
 
 

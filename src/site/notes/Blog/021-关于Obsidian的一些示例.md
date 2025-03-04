@@ -1,5 +1,5 @@
 ---
-{"type":"blog","title":"022-笔记模板2.0---Obsidian适用","tags":["blog/note"],"establish":"2025/02/21","update":null,"dg-publish":true,"permalink":"/Blog/021-关于Obsidian的一些示例/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-21T11:01:33.108+08:00","updated":"2025-03-03T20:50:18.499+08:00"}
+{"type":"blog","title":"022-笔记模板2.0---Obsidian适用","tags":["blog/note"],"establish":"2025/02/21","update":null,"dg-publish":true,"permalink":"/Blog/021-关于Obsidian的一些示例/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.108+08:00","updated":"2025-03-04T09:09:38.879+08:00"}
 ---
 
 
@@ -64,18 +64,6 @@ src="https://img.codertoro.top/Bucket/img/material/018-%E6%88%91%E7%9A%84%E5%8D%
 
 
 ***
-
-![image.png|800](https://img.codertoro.top/Bucket/202502192243440.png)
-
-
-
-![image.png |425](https://img.codertoro.top//Bucket/202502192244863.png)
-
-
-![|425](https://img.codertoro.top//Bucket/202502192247351.png)
-
-
-![img|75](https://img.codertoro.top//Bucket/202502192248832.png)
 
 
 ```语言种类
@@ -223,10 +211,6 @@ emperor4((朱高炽))--长子-->emperor3
 
 
 ---
-![[ 建立博客基本流程.png\|345 ]]
-
-
-![|325](https://img.codertoro.top//Bucket/202502202232361.png)
 
 ttt
 
