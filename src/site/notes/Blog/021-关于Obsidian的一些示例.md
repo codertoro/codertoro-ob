@@ -1,5 +1,5 @@
 ---
-{"type":"blog","title":"022-笔记模板2.0---Obsidian适用","tags":["blog/note"],"establish":"2025/02/21","update":null,"dg-publish":true,"permalink":"/blog/021-obsidian/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-21T11:01:33.108+08:00","updated":"2025-03-03T20:50:18.499+08:00"}
+{"type":"blog","title":"022-笔记模板2.0---Obsidian适用","tags":["blog/note"],"establish":"2025/02/21","update":null,"dg-publish":true,"permalink":"/Blog/021-关于Obsidian的一些示例/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-21T11:01:33.108+08:00","updated":"2025-03-03T20:50:18.499+08:00"}
 ---
 
 
