@@ -1,5 +1,5 @@
 ---
-{"type":"blog","title":"[[024-我的Obsidian设置]]","tags":["blog/blog","blog/note","blog/software"],"author":"codertoro","Establish":"2025-02-21","Update":"2025-02-21","dg-publish":true,"permalink":"/Blog/024-我的Obsidian设置/","dgPassFrontmatter":true,"created":"2025-02-21T21:41:51.294+08:00","updated":"2025-03-03T20:49:48.810+08:00"}
+{"type":"blog","title":"024-我的Obsidian设置","tags":["blog/blog","blog/note","blog/software"],"author":"codertoro","Establish":"2025-02-21","Update":"2025-02-21","dg-publish":true,"permalink":"/Blog/024-我的Obsidian设置/","dgPassFrontmatter":true,"created":"2025-02-21T21:41:51.294+08:00","updated":"2025-03-04T09:20:36.722+08:00"}
 ---
 
 # 1. 插件设置
