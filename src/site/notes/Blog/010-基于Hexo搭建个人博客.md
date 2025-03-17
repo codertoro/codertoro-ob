@@ -1,5 +1,5 @@
 ---
-{"type":"blog","title":"010-基于Hexo搭建个人博客","tags":["blog/tutorial"],"cover":"https://codertoro-img01.s3.ladydaily.com/img/material/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.jpg","categories":["技术教程","博客搭建"],"abbrlink":"d90dd0c3","establish":"2023-01-13 22:37:33","dg-publish":true,"permalink":"/Blog/010-基于Hexo搭建个人博客/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.123+08:00","updated":"2025-03-04T18:41:22.660+08:00"}
+{"type":"blog","title":"010-基于Hexo搭建个人博客","tags":["blog/tutorial"],"cover":"https://codertoro-img01.s3.ladydaily.com/img/material/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.jpg","categories":["技术教程","博客搭建"],"abbrlink":"d90dd0c3","establish":"2023-01-13 22:37:33","dg-publish":true,"permalink":"/Blog/010-基于Hexo搭建个人博客/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.123+08:00","updated":"2025-03-09T08:52:42.101+08:00"}
 ---
 
 <!-- [toc] -->
@@ -148,7 +148,7 @@ git clone https://github.com/litten/hexo-theme-yilia.git theme/yilia
 GitHub是外网，访问速度慢，可以使用 [Steam++](https://steampp.net)进行加速，个人感觉比[uu加速器](https://uu.163.com/)的学术资源加速管用。不管怎么加速，访问速度还是不如gitee快，hexo d会经常出问题
 
 ## 7.2. gitee的缺点
-gitee虽然访问速度快，但gitee pages只能使用xxx.gitee.io访问，不能设置个性化域名。只有gitee pages pro可以设置个性化域名，但目前(2023.1.13)已经暂停向个人用户购买gitee pages pro的服务，只有企业版可以购买和使用。
+gitee虽然访问速度快，但gitee pages只能使用xxx.gitee.io访问，不能设置个性化域名。只有gitee pages pro可以设置个性化域名，但目前(2023.1.13)已经暂停向个人用户出售gitee pages pro的服务，只有企业版可以购买和使用。
 
 ## 7.3. ssh免密登录
 ``` bash
