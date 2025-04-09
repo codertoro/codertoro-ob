@@ -1,26 +1,28 @@
 ---
-{"type":"javascript","title":"数据类型转换与比较","tags":null,"author":"codertoro","establish":"2025-04-05","update":"2025-04-05","dg-publish":true,"permalink":"/Projects/JavaScript/JavaScript 类型转换和比较规则/","dgPassFrontmatter":true,"created":"2025-04-05T16:30:19.714+08:00","updated":"2025-04-05T16:32:12.346+08:00"}
+{"type":"javascript","title":"数据类型转换与比较","tags":null,"author":"codertoro","establish":"2025-04-05","update":"2025-04-05","dg-publish":true,"permalink":"/Projects/JavaScript/JavaScript 类型转换和比较规则/","dgPassFrontmatter":true,"created":"2025-04-05T16:30:19.714+08:00","updated":"2025-04-06T16:39:53.359+08:00"}
 ---
 
+> [!warning]+ 以下内容为ChatGPT-4o生成，注意甄别
+> 
 # 1. **数据类型转换**
 
-| 原始值             | 转为布尔值 | 转为数字 | 转为字符串 |
-|--------------------|------------|----------|------------|
-| `false`            | `false`    | `0`      | `"false"`  |
-| `true`             | `true`     | `1`      | `"true"`   |
-| `0`                | `false`    | `0`      | `"0"`      |
-| `-0`               | `false`    | `-0`     | `"-0"`     |
-| `NaN`              | `false`    | `NaN`    | `"NaN"`    |
-| `""` (空字符串)    | `false`    | `0`      | `""`       |
-| `"123"`            | `true`     | `123`    | `"123"`    |
-| `"abc"`            | `true`     | `NaN`    | `"abc"`    |
-| `null`             | `false`    | `0`      | `"null"`   |
-| `undefined`        | `false`    | `NaN`    | `"undefined"` |
-| `[]` (空数组)      | `true`     | `0`      | `""`       |
-| `[123]`            | `true`     | `123`    | `"123"`    |
-| `{}` (空对象)     | `true`     | `NaN`    | `"[object Object]"` |
-| `function() {}`    | `true`     | `NaN`    | `"[object Function]"` |
-| `Infinity`         | `true`     | `Infinity` | `"Infinity"` |
+| 原始值             | 转为布尔值   | 转为数字       | 转为字符串                 |
+| --------------- | ------- | ---------- | --------------------- |
+| `false`         | `false` | `0`        | `"false"`             |
+| `true`          | `true`  | `1`        | `"true"`              |
+| `0`             | `false` | `0`        | `"0"`                 |
+| `-0`            | `false` | `-0`       | `"-0"`                |
+| `NaN`           | `false` | `NaN`      | `"NaN"`               |
+| `""` (空字符串)     | `false` | `0`        | `""`                  |
+| `"123"`         | `true`  | `123`      | `"123"`               |
+| `"abc"`         | `true`  | `NaN`      | `"abc"`               |
+| `null`          | `false` | `0`        | `"null"`              |
+| `undefined`     | `false` | `NaN`      | `"undefined"`         |
+| `[]` (空数组)      | `true`  | `0`        | `""`                  |
+| `[123]`         | `true`  | `123`      | `"123"`               |
+| `{}` (空对象)      | `true`  | `NaN`      | `"[object Object]"`   |
+| `function() {}` | `true`  | `NaN`      | `"[object Function]"` |
+| `Infinity`      | `true`  | `Infinity` | `"Infinity"`          |
 
 ---
 
