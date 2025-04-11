@@ -1,5 +1,5 @@
 ---
-{"type":"blog","title":"022-笔记模板2.0---Obsidian适用","tags":["blog/note"],"establish":"2025/02/21","update":null,"dg-publish":true,"permalink":"/Blog/021-关于Obsidian的一些示例/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.108+08:00","updated":"2025-03-04T09:09:38.879+08:00"}
+{"type":"blog","title":"022-笔记模板2.0---Obsidian适用","tags":["blog/note"],"establish":"2025/02/21","update":null,"dg-publish":true,"permalink":"/Blog/021-关于Obsidian的一些示例/","dgPassFrontmatter":true,"created":"2025-02-21T11:01:33.108+08:00","updated":"2025-04-11T00:26:12.794+08:00"}
 ---
 
 
@@ -299,3 +299,6 @@ sss
 
 
 
+
+
+![](https://img.codertoro.top/Bucket/Blog/20250411002611208.png)
