@@ -1,5 +1,5 @@
 ---
-{"type":"javascript","title":"006-Array类型","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"permalink":"/Projects/003-JavaScript/006-Array类型/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-12T11:48:23.120+08:00"}
+{"type":"javascript","title":"006-Array类型","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"permalink":"/Projects/003-JavaScript/006-Array类型/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-12T11:51:39.769+08:00"}
 ---
 
 # 1. 数组基础
@@ -86,6 +86,7 @@ console.log(arr3);
 </div></div>
 
 		- ![|269](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411134744189.png)
+
 	- `join(间隔字符)`  数组转字符串
 		- **不改变原数组**
 		- 返回值：String
