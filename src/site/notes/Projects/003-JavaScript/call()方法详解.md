@@ -1,5 +1,5 @@
 ---
-{"type":"javascript","title":"call()方法详解","tags":null,"author":"codertoro","establish":"2025-04-10","update":"2025-04-10","dg-publish":true,"permalink":"/Projects/003-JavaScript/call()方法详解/","dgPassFrontmatter":true,"created":"2025-04-10T15:22:05.548+08:00","updated":"2025-04-10T22:35:39.203+08:00"}
+{"type":"javascript","title":"call()方法详解","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-10","update":"2025-04-10","dg-publish":true,"permalink":"/Projects/003-JavaScript/call()方法详解/","dgPassFrontmatter":true,"created":"2025-04-10T15:22:05.548+08:00","updated":"2025-04-12T17:08:10.425+08:00"}
 ---
 
 - 基本语法

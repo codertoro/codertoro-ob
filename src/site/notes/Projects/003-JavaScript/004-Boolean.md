@@ -1,0 +1,21 @@
+---
+{"type":"javascript","title":"004-Boolean","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"categories":["数据类型","基本数据类型"],"permalink":"/Projects/003-JavaScript/004-Boolean/","dgPassFrontmatter":true,"created":"2025-04-11T09:39:10.656+08:00","updated":"2025-04-12T17:14:05.999+08:00"}
+---
+
+- `Boolean` 只有两个值，true 和false
+- 其他类型转换为`Boolean` 的转换规则：
+- 假值：
+	- false
+	- +0  -0
+	- NaN
+	- ""     空字符串
+	- null
+	- undefined
+- 真值
+	- true
+	- 非0数值
+	- 非空字符串
+	- **`[]空数组`**   和 **`[]空对象`** 
+	- **function 函数**
+- 构造函数就是`Boolean()` 函数，常用于强制类型转换
+- 
