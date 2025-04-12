@@ -1,5 +1,5 @@
 ---
-{"type":"javascript","title":"006-Array类型","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"permalink":"/Projects/003-JavaScript/006-Array类型/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-12T11:55:12.009+08:00"}
+{"type":"javascript","title":"006-Array类型","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"permalink":"/Projects/003-JavaScript/006-Array类型/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-12T14:36:33.150+08:00"}
 ---
 
 # 1. 数组基础
@@ -51,19 +51,19 @@ let arr3 = [];  //创建空数组
 | ^^    | indexOf(a[,index])     | 不支持找NaN    |
 | ^^    | lastIndexOf(a[,index]) | 不支持找NaN    |
 ```
-- 增
-	- `push()` 尾加多
-	- `unshift()` 头加多
-- 删
-	- `pop()` 尾删一
-	- `shift()` 头删一
-- 改
-	- `splice(n1,n2,add1,add2...)` 任意位置  增 删 多  
-		- n1下标，n2 删除个数 add 插入内容
-		- 改变原数组
-		- 返回值：新数组，包含被删除项
-	- `slice(a,b)`  截取子数组  
-		- 支持负数，表示倒数几项
+## 增
+- `push()` 尾加多
+- `unshift()` 头加多
+## 删
+- `pop()` 尾删一
+- `shift()` 头删一
+## 改
+- `splice(n1,n2,add1,add2...)` 任意位置  增 删 多  
+	- n1下标，n2 删除个数 add 插入内容
+	- 改变原数组
+	- 返回值：新数组，包含被删除项
+- `slice(a,b)`  截取子数组  
+	- 支持负数，表示倒数几项
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
 <div class="markdown-embed-title">
@@ -85,12 +85,12 @@ console.log(arr3);
 
 </div></div>
 
-		- ![|269](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411134744189.png)
+	- ![|269](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411134744189.png)
 
-	- `join(间隔字符)`  数组转字符串
-		- **不改变原数组**
-		- 返回值：String
-		- 与`split()` 搭配使用
+- `join(间隔字符)`  数组转字符串
+	- **不改变原数组**
+	- 返回值：String
+	- 与`split()` 搭配使用
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
 <div class="markdown-embed-title">
@@ -115,10 +115,10 @@ console.log(arr); //判断是否改变原数组
 
 </div></div>
 
-		- 运行结果：![|360](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411135635485.png)
-	- `concat(arr1,arr2,arr3,...)` 拼接数组
-		- **不改变原数组**
-		- 返回值：拼接后的Array
+	- 运行结果：![|360](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411135635485.png)
+- `concat(arr1,arr2,arr3,...)` 拼接数组
+	- **不改变原数组**
+	- 返回值：拼接后的Array
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
 <div class="markdown-embed-title">
@@ -139,9 +139,9 @@ console.log(arrB);
 
 </div></div>
 ![|318](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411140222996.png)
-	- `reverse()` 倒置数组
-		- 改变原数组
-		- 返回值：倒置后的数组（和倒置后的原数组是**同一个数组，指向同一块数组内存**）
+- `reverse()` 倒置数组
+	- 改变原数组
+	- 返回值：倒置后的数组（和倒置后的原数组是**同一个数组，指向同一块数组内存**）
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
 <div class="markdown-embed-title">
@@ -164,17 +164,17 @@ console.log(arrA);
 
 </div></div>
 
-		- ![|295](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411141355789.png)
+	- ![|295](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411141355789.png)
 
-- 查
-	- `includes()` 
-		- 语法：`arr.includes(valueToFind[,fromIndex])` 
-		- 不改变原数组
-		- 返回值：`Boolean` 即true/false
-		- **比较方式：**  **SamevalueZero**  (引用类型比较要注意)
-		- `valueToFind` : 要查找的值
-		- `fromIndex` : 从这个索引开始查找，默认0 ，支持负数（表示从尾部开始查找）
-		- 数据类型判断总结
+## 查
+- `includes()` 
+	- 语法：`arr.includes(valueToFind[,fromIndex])` 
+	- 不改变原数组
+	- 返回值：`Boolean` 即true/false
+	- **比较方式：**  **SamevalueZero**  (引用类型比较要注意)
+	- `valueToFind` : 要查找的值
+	- `fromIndex` : 从这个索引开始查找，默认0 ，支持负数（表示从尾部开始查找）
+	- 数据类型判断总结
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/projects/003-java-script/001/#1bed3c" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 <div class="markdown-embed-title">
@@ -196,12 +196,12 @@ console.log(arrA);
 
 </div></div>
 
-	- `indexOf()` 
-		- 语法：`arr.indexOf(valueToFind[,fromIndex])`
-		- 不改变原数组
-		- 返回值：找到的数据的下标, Number类型
-		- 比较方式：===
-			- 示例代码：
+- `indexOf()` 
+	- 语法：`arr.indexOf(valueToFind[,fromIndex])`
+	- 不改变原数组
+	- 返回值：找到的数据的下标, Number类型
+	- 比较方式：===
+		- 示例代码：
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
 <div class="markdown-embed-title">
@@ -225,4 +225,4 @@ console.log(index4)
 
 </div></div>
 
-			- 运行结果：![|445](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250412092456097.png)
+		- 运行结果：![|445](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250412092456097.png)
