@@ -1,5 +1,5 @@
 ---
-{"type":"javascript","title":"006-Array类型","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"permalink":"/Projects/003-JavaScript/006-Array类型/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-12T14:36:33.150+08:00"}
+{"type":"javascript","title":"006-Array类型","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"permalink":"/Projects/003-JavaScript/006-Array类型/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-12T14:41:09.686+08:00"}
 ---
 
 # 1. 数组基础
@@ -138,7 +138,8 @@ console.log(arrB);
 ```
 
 </div></div>
-![|318](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411140222996.png)
+
+	- ![|318](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411140222996.png)
 - `reverse()` 倒置数组
 	- 改变原数组
 	- 返回值：倒置后的数组（和倒置后的原数组是**同一个数组，指向同一块数组内存**）
