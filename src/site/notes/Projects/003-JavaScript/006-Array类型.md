@@ -1,5 +1,5 @@
 ---
-{"type":"javascript","title":"006-Array类型","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"permalink":"/Projects/003-JavaScript/006-Array类型/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-11T18:25:27.942+08:00"}
+{"type":"javascript","title":"006-Array类型","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"permalink":"/Projects/003-JavaScript/006-Array类型/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-12T11:48:23.120+08:00"}
 ---
 
 # 1. 数组基础
@@ -34,12 +34,29 @@ let arr3 = [];  //创建空数组
 		- `for in`
 		- `forEach`
 # 2. 数组的方法
+## 方法概览
+```tx
+| 归类  | 方法                     | 口诀  |
+| --- | ---------------------- | --- |
+| 增  | push(a1, a2, a3...)    | 尾加多 |
+|  ^^   | unshift(a1,a2,a3...)   | 头加多 |
+| 删    | pop()                  |  尾删一   |
+|   ^^  | shift()                |  头删一   |
+| 改    | splice(n1,n2,a1,a2...) |  任意位置 增删多   |
+| ^^    | slice(a,b)             |   截取  |
+| ^^    | join("#")              |  转String   |
+| ^^    | concat(arr1,arr2)      |  拼接   |
+| ^^    | reverse()              |  倒置   |
+| 查    | includes(a[,index])    | 支持找NaN    |
+| ^^    | indexOf(a[,index])     | 不支持找NaN    |
+| ^^    | lastIndexOf(a[,index]) | 不支持找NaN    |
+```
 - 增
 	- `push()` 尾加多
 	- `unshift()` 头加多
 - 删
 	- `pop()` 尾删一
-	- `shift()` 尾加多
+	- `shift()` 头删一
 - 改
 	- `splice(n1,n2,add1,add2...)` 任意位置  增 删 多  
 		- n1下标，n2 删除个数 add 插入内容
@@ -67,8 +84,8 @@ console.log(arr3);
 ```
 
 </div></div>
-![|269](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411134744189.png)
-- 改
+
+		- ![|269](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411134744189.png)
 	- `join(间隔字符)`  数组转字符串
 		- **不改变原数组**
 		- 返回值：String
@@ -98,7 +115,6 @@ console.log(arr); //判断是否改变原数组
 </div></div>
 
 		- 运行结果：![|360](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411135635485.png)
-- 改
 	- `concat(arr1,arr2,arr3,...)` 拼接数组
 		- **不改变原数组**
 		- 返回值：拼接后的Array
@@ -122,8 +138,6 @@ console.log(arrB);
 
 </div></div>
 ![|318](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411140222996.png)
-
-- 改
 	- `reverse()` 倒置数组
 		- 改变原数组
 		- 返回值：倒置后的数组（和倒置后的原数组是**同一个数组，指向同一块数组内存**）
@@ -149,7 +163,6 @@ console.log(arrA);
 
 </div></div>
 ![|295](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250411141355789.png)
-
 - 查
 	- `includes()` 
 		- 语法：`arr.includes(valueToFind[,fromIndex])` 
@@ -183,6 +196,7 @@ console.log(arrA);
 	- `indexOf()` 
 		- 语法：`arr.indexOf(valueToFind[,fromIndex])`
 		- 不改变原数组
+		- 返回值：找到的数据的下标, Number类型
 		- 比较方式：===
 			- 示例代码：
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
@@ -195,15 +209,17 @@ console.log(arrA);
 
 
 ```js
-var b = 3;
-(function () {
-  b = 5;
-  var b = 2;
-})();
-console.log(b);
-
+let arr = ["a",'b','c',NaN]
+let index1 = arr.indexOf(NaN); //-1
+let index2 = arr.indexOf("b"); //1
+let index3 = arr.lastIndexOf(NaN); //-1
+let index4 = arr.lastIndexOf("c"); //2
+console.log(index1)
+console.log(index2)
+console.log(index3)
+console.log(index4)
 ```
 
 </div></div>
 
-			- 
+			- 运行结果：![|445](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250412092456097.png)
