@@ -1,5 +1,5 @@
 ---
-{"type":"javascript","title":"010-Date日期","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-12","update":"2025-04-12","dg-publish":true,"categories":["数据类型","引用数据类型"],"permalink":"/Projects/003-JavaScript/010-Date日期/","dgPassFrontmatter":true,"created":"2025-04-12T10:56:25.258+08:00","updated":"2025-04-12T17:25:25.422+08:00"}
+{"type":"javascript","title":"010-Date日期","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-12","update":"2025-04-12","dg-publish":true,"categories":["数据类型","引用数据类型"],"permalink":"/Projects/003-JavaScript/010-Date日期/","dgPassFrontmatter":true,"created":"2025-04-12T10:56:25.258+08:00","updated":"2025-04-12T17:26:56.490+08:00"}
 ---
 
 - date 是js中的内置对象，用来处理和操作日期和时间
@@ -10,11 +10,6 @@
 - 通过字符串创建指定的日期和时间
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-<div class="markdown-embed-title">
-
-# CODE-字符串创建日期
-
-</div>
 
 
 ```js
@@ -29,11 +24,6 @@ console.log(dateFromString);
 - 通过有参构造函数创建（指定的日期）
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-<div class="markdown-embed-title">
-
-# CODE-有参构造创建
-
-</div>
 
 
 ```js
@@ -49,11 +39,6 @@ console.log(customDate);
 	- 获取当前时间戳
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-<div class="markdown-embed-title">
-
-# CODE-获取当前时间戳
-
-</div>
 
 
 ```js
@@ -71,11 +56,6 @@ console.log("秒级时间戳:", timestamp_s);
 	- 用时间戳创建日期对象
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-<div class="markdown-embed-title">
-
-# CODE-用时间戳创建日期
-
-</div>
 
 
 ```js
