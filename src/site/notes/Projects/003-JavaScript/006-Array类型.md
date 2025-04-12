@@ -1,5 +1,5 @@
 ---
-{"type":"javascript","title":"006-Array类型","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"permalink":"/Projects/003-JavaScript/006-Array类型/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-12T14:41:09.686+08:00"}
+{"type":"javascript","title":"006-Array类型","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"permalink":"/Projects/003-JavaScript/006-Array类型/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-12T14:43:52.187+08:00"}
 ---
 
 # 1. 数组基础
@@ -8,7 +8,7 @@
 
 <div class="markdown-embed-title">
 
-# INDEX
+# CODE-数组创建
 
 </div>
 
