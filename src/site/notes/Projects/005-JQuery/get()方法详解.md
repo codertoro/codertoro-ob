@@ -1,5 +1,5 @@
 ---
-{"type":"jquery","title":"get()方法详解","tags":null,"author":"codertoro","establish":"2025-04-08","update":"2025-04-08","dg-publish":true,"permalink":"/Projects/005-JQuery/get()方法详解/","dgPassFrontmatter":true,"created":"2025-04-08T14:55:48.869+08:00","updated":"2025-04-08T17:11:07.004+08:00"}
+{"type":"jquery","title":"get()方法详解","tags":null,"author":"codertoro","establish":"2025-04-08","update":"2025-04-08","dg-publish":true,"permalink":"/Projects/005-JQuery/get()方法详解/","dgPassFrontmatter":true,"created":"2025-04-08T14:55:48.869+08:00","updated":"2025-04-12T17:47:43.956+08:00"}
 ---
 
 - **JQuery** 一个提供丰富的元素操作函数的javascript库
@@ -58,10 +58,10 @@
 - 第三种：**Array.from()**
 - 原生DOM的方法，效果和第二种一样，依旧不是纯DOM数组
 ![|433](https://img.codertoro.top/Bucket/Projects/JQuery/202504081529611.png)
-- 第四种：**get()**
+- 第四种：**get(index)**  index为索引值
 - JQuery对象的函数，返回一个原生DOM数组
 ![|438](https://img.codertoro.top/Bucket/Projects/JQuery/202504081531225.png)
-
+- 第五种：**$.makeArray(object)** 返回一个数组，object为对象
 # 2. 验证方法
 ```javascript
 let a1 = arr.get();

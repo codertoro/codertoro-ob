@@ -1,5 +1,5 @@
 ---
-{"type":"javascript","title":"010-Date日期","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-12","update":"2025-04-12","dg-publish":true,"categories":["数据类型","引用数据类型"],"permalink":"/Projects/003-JavaScript/010-Date日期/","dgPassFrontmatter":true,"created":"2025-04-12T10:56:25.258+08:00","updated":"2025-04-12T17:26:56.490+08:00"}
+{"type":"javascript","title":"010-Date日期","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-12","update":"2025-04-12","dg-publish":true,"categories":["数据类型","引用数据类型"],"permalink":"/Projects/003-JavaScript/010-Date日期/","dgPassFrontmatter":true,"created":"2025-04-12T10:56:25.258+08:00","updated":"2025-04-12T17:29:47.986+08:00"}
 ---
 
 - date 是js中的内置对象，用来处理和操作日期和时间
@@ -53,7 +53,7 @@ console.log("秒级时间戳:", timestamp_s);
 
 </div></div>
 
-	- 用时间戳创建日期对象
+	- 用时间戳创建日期对象 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
 
@@ -169,4 +169,5 @@ console.log(fromTimestamp);
 
 - 运行结果
 ![|538](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250412160541460.png)
+
 

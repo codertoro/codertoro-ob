@@ -1,4 +1,50 @@
 ---
-{"type":"javascript","title":"013-Math对象","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-12","update":"2025-04-12","dg-publish":true,"categories":["数据类型","引用数据类型"],"permalink":"/Projects/003-JavaScript/013-Math对象/","dgPassFrontmatter":true,"created":"2025-04-12T16:17:51.296+08:00","updated":"2025-04-12T17:15:39.422+08:00"}
+{"type":"javascript","title":"013-Math对象","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-12","update":"2025-04-12","dg-publish":true,"categories":["数据类型","引用数据类型"],"permalink":"/Projects/003-JavaScript/013-Math对象/","dgPassFrontmatter":true,"created":"2025-04-12T16:17:51.296+08:00","updated":"2025-04-14T18:53:06.119+08:00"}
 ---
 
+- Math 对象和其他对象不一样，我们不需要使用new关键字来创造，而是直接使用他的属性和方法。
+# 1. 数学属性
+| 属性      | 说明             | 数学形式                 |
+| ------- | -------------- | -------------------- |
+| PI      | 圆周率            | $\pi$                |
+| LN2     | 2 的自然对数        | $\ln(2)$             |
+| LN10    | 10 的自然对数       | $\ln(10)$            |
+| LOG2E   | 以 2 为底的 e 的对数  | $\log_2 e$           |
+| LOG10E  | 以 10 为底的 e 的对数 | $\log_{10} e$        |
+| SQRT2   | 2 的平方根         | $\sqrt{2}$           |
+| SQRT1_2 | 2 的平方根的倒数      | $\frac{1}{\sqrt{2}}$ |
+- 角度表示方法：
+	- 弧度表示：（常用）
+		- Math.PI  代表180度
+	- 角度表示：
+		- 120* Math.PI / 180   表示120度
+		- 150* Math.PI / 180   表示150度
+# 2. 数学方法
+- 常用方法
+
+| 方法                  | 说明             |
+| ------------------- | -------------- |
+| max(a, b, c...,n)   | 返回一组数中的最大值     |
+| min(a, b, c, ... n) | 最小值            |
+| floor(x)            | 向下取整           |
+| ceil(x)             | 向上取整           |
+| pow(x, y)           | x的y次幂          |
+| sqrt(x)             | x的平方根          |
+| random()            | 随机数，范围:`[0,1)` |
+| round(x)            | 四舍五入           |
+| abs(x)              | x的绝对值          |
+- 不常用方法
+
+| 方法      | 数学表达式             | 说明                               |
+|-----------|------------------------|------------------------------------|
+| sin(x)    | $\sin(x)$              | 正弦函数，x 以弧度表示             |
+| cos(x)    | $\cos(x)$              | 余弦函数，x 以弧度表示             |
+| tan(x)    | $\tan(x)$              | 正切函数，x 以弧度表示             |
+| asin(x)   | $\sin^{-1}(x)$ 或 $\arcsin(x)$ | 反正弦函数，返回值以弧度表示 |
+| acos(x)   | $\cos^{-1}(x)$ 或 $\arccos(x)$ | 反余弦函数，返回值以弧度表示 |
+| atan(x)   | $\tan^{-1}(x)$ 或 $\arctan(x)$ | 反正切函数，返回值以弧度表示 |
+| atan2(y, x) | $\tan^{-1}\left(\frac{y}{x}\right)$ | 基于 y 和 x 计算角度，考虑象限 |
+| log(x)    | $\ln(x)$               | 自然对数，底为 e                   |
+| exp(x)    | $e^x$                  | 指数函数，e 的 x 次幂              |
+- 注：所有的三角函数的参数和返回值都是以**弧度**为单位的，而非角度，如需角度，需自行转换
+- 

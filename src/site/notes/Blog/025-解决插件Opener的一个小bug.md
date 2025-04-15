@@ -7,26 +7,7 @@ Obsidian 的插件opener 可以让鼠标左键单击文件默认在问tab中打�
 - 解决方法：
 	- 打开opener的js文件![](https://img.codertoro.top/Bucket/Blog/20250411160444688.png)
 	- 找到如图所示的代码部分![](https://img.codertoro.top/Bucket/Blog/20250411160745960.png)
-	- 更改为如下代码
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
-
-
-
-
-```js
-if (matchingLeaves.length) {
-// 关闭空标签页（如果存在）
-if (preparedEmptyLeave) {
-this.detach();
-}
-// 聚焦到已存在的标签页
-app.workspace.setActiveLeaf(matchingLeaves[0], { focus: true });
-return oldOpenFile.apply(matchingLeaves[0], [file, openState]);
-}
-```
-
-</div></div>
-
+	- 更改为如下代码![[2025-04-11 16：09：10\|2025-04-11 16：09：10]]
 ```js
 if (matchingLeaves.length) {
 // 关闭空标签页（如果存在）

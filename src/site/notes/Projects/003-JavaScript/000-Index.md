@@ -18,6 +18,8 @@
 | [[Projects/003-JavaScript/011-RexExp正则表达式\|011-RexExp正则表达式]]           | 011-RexExp正则表达式 |
 | [[Projects/003-JavaScript/012-Error错误对象\|012-Error错误对象]]               | 012-Error错误对象   |
 | [[Projects/003-JavaScript/013-Math对象\|013-Math对象]]                     | 013-Math对象      |
+| [[Projects/003-JavaScript/014-DOM操作\|014-DOM操作]]                       | 014-DOM操作       |
+| [[Projects/003-JavaScript/循环语句总结\|循环语句总结]]                             | 循环语句总结          |
 | [[Projects/003-JavaScript/原型链-初步认识\|原型链-初步认识]]                         | 原型链-初步认识        |
 | [[Projects/003-JavaScript/call()方法详解\|call()方法详解]]                     | call()方法详解      |
 | [[Projects/003-JavaScript/JavaScript 类型转换和比较规则\|JavaScript 类型转换和比较规则]] | 数据类型转换与比较       |
