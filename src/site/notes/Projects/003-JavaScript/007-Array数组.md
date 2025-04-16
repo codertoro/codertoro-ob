@@ -1,16 +1,11 @@
 ---
-{"type":"javascript","title":"007-Array数组","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"categories":["数据类型","引用数据类型"],"permalink":"/Projects/003-JavaScript/007-Array数组/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-16T10:57:45.383+08:00"}
+{"type":"javascript","title":"007-Array数组","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"categories":["数据类型","引用数据类型"],"permalink":"/Projects/003-JavaScript/007-Array数组/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-16T11:05:29.640+08:00"}
 ---
 
 # 1. 数组基础
 - 创建 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-<div class="markdown-embed-title">
-
-# CODE-数组创建
-
-</div>
 
 
 ```js
@@ -74,11 +69,6 @@ let arr3 = [];  //创建空数组
 	- 支持负数，表示倒数几项
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-<div class="markdown-embed-title">
-
-# INDEX
-
-</div>
 
 
 ```js
@@ -101,11 +91,6 @@ console.log(arr3);
 	- 与`split()` 搭配使用
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-<div class="markdown-embed-title">
-
-# INDEX
-
-</div>
 
 
 ```js
@@ -129,11 +114,6 @@ console.log(arr); //判断是否改变原数组
 	- 返回值：拼接后的Array
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-<div class="markdown-embed-title">
-
-# INDEX
-
-</div>
 
 
 ```js
@@ -153,11 +133,6 @@ console.log(arrB);
 	- 返回值：倒置后的数组（和倒置后的原数组是**同一个数组，指向同一块数组内存**）
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-<div class="markdown-embed-title">
-
-# INDEX
-
-</div>
 
 
 ```js
@@ -186,11 +161,6 @@ console.log(arrA);
 	- 数据类型判断总结
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/projects/003-java-script/001/#1bed3c" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
-<div class="markdown-embed-title">
-
-# 数据类型判断
-
-</div>
 
 
 | 方法             | 严格程度       | 底层原理              | 特殊值备注                            |
@@ -213,11 +183,6 @@ console.log(arrA);
 		- 示例代码：
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-<div class="markdown-embed-title">
-
-# CODE-indexOf
-
-</div>
 
 
 ```js
