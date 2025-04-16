@@ -1,5 +1,5 @@
 ---
-{"type":"javascript","title":"007-Array数组","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"categories":["数据类型","引用数据类型"],"permalink":"/Projects/003-JavaScript/007-Array数组/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-12T17:14:31.799+08:00"}
+{"type":"javascript","title":"007-Array数组","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-11","update":"2025-04-11","dg-publish":true,"categories":["数据类型","引用数据类型"],"permalink":"/Projects/003-JavaScript/007-Array数组/","dgPassFrontmatter":true,"created":"2025-04-11T10:52:20.702+08:00","updated":"2025-04-16T10:57:45.383+08:00"}
 ---
 
 # 1. 数组基础
@@ -35,6 +35,11 @@ let arr3 = [];  //创建空数组
 		- `forEach`
 # 2. 数组的方法
 ## 2.1. 方法概览
+
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
+
+
 ```tx
 | 归类  | 方法                    | 口诀   |
 | ---   | ---------------------- | ---    |
@@ -51,6 +56,9 @@ let arr3 = [];  //创建空数组
 | ^^    | indexOf(a[,index])     | 不支持找NaN    |
 | ^^    | lastIndexOf(a[,index]) | 不支持找NaN    |
 ```
+
+</div></div>
+
 ## 2.2. 增
 - `push()` 尾加多
 - `unshift()` 头加多
