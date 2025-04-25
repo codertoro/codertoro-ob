@@ -1,8 +1,8 @@
 ---
-{"type":"java","title":"250419-try-finally语句","tags":["exercises/java"],"author":"codertoro","establish":"2025-04-19","update":"2025-04-19","dg-publish":true,"java":true,"permalink":"/Exercises/Java/250419-try-finally语句/","dgPassFrontmatter":true,"created":"2025-04-19T15:56:03.362+08:00","updated":"2025-04-19T15:58:35.007+08:00"}
+{"type":"java","title":"250419-try-finally语句","tags":["exercises/java"],"author":"codertoro","establish":"2025-04-19","update":"2025-04-19","dg-publish":true,"java":true,"permalink":"/Exercises/Java/250419-try-finally语句/","dgPassFrontmatter":true,"created":"2025-04-19T15:56:03.362+08:00","updated":"2025-04-25T14:41:34.814+08:00"}
 ---
 
-![|568](https://img.codertoro.top/Bucket/Exercises/Java/20250419155643847.png)
+![|737](https://img.codertoro.top/Bucket/Exercises/Java/20250419155643847.png)
 
 > [!success]- 答案
 A
