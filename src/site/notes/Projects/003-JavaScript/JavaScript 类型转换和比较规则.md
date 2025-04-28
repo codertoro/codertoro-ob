@@ -1,5 +1,5 @@
 ---
-{"type":"javascript","title":"数据类型转换与比较","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-05","update":"2025-04-05","dg-publish":true,"permalink":"/Projects/003-JavaScript/JavaScript 类型转换和比较规则/","dgPassFrontmatter":true,"created":"2025-04-05T16:30:19.714+08:00","updated":"2025-04-12T17:20:06.970+08:00"}
+{"type":"javascript","title":"数据类型转换与比较","tags":["projects/javascript"],"author":"codertoro","establish":"2025-04-05","update":"2025-04-05","dg-publish":true,"permalink":"/Projects/003-JavaScript/JavaScript 类型转换和比较规则/","dgPassFrontmatter":true,"created":"2025-04-05T16:30:19.714+08:00","updated":"2025-04-27T16:18:59.114+08:00"}
 ---
 
 > [!warning]+ 以下内容为ChatGPT-4o生成，注意甄别
@@ -86,4 +86,10 @@
 ---
 
 这样你可以在需要的时候快速回顾这些规则，编写更符合 JavaScript 行为的代码。📚 有其他问题或希望进一步深入某一部分，随时告诉我！
+
+![](https://img.codertoro.top/Bucket/Projects/003-JavaScript/20250427160538414.png)
+
+
+![](https://codertoro.oss-cn-wulanchabu.aliyuncs.com/Bucket/Projects/003-JavaScript/20250410223102427.png)
+
 
