@@ -1,5 +1,5 @@
 ---
-{"type":"java","title":"UML类图","tags":null,"author":"codertoro","establish":"2025-04-29","update":"2025-04-29","dg-publish":true,"permalink":"/Projects/07-Java/UML类图/","dgPassFrontmatter":true,"created":"2025-04-29T09:52:47.363+08:00","updated":"2025-04-29T16:52:44.903+08:00"}
+{"type":"java","title":"UML类图","tags":null,"author":"codertoro","establish":"2025-04-29","update":"2025/05/14 13:47","dg-publish":true,"permalink":"/Projects/07-Java/UML类图/","dgPassFrontmatter":true,"created":"2025-04-29T09:52:47.363+08:00","updated":"2025-05-14T13:47:38.000+08:00"}
 ---
 
 # 1. 关系
@@ -49,13 +49,13 @@
 ### 单向关联
 - 单向关联指的是关联只有一个方向，比如每个孩子都有一个父亲
 ```java
-class Father {
-    
-}
+class Father {}
 
 class Child {
-    private Father m_father;  // 私有成员变量
+
+    private Father m_father; // 私有成员变量
 }
+
 ```
 
 ![|634](https://img.codertoro.top/Bucket/Projects/07-Java/20250429105921738.png)
