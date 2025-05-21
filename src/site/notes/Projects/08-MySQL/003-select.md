@@ -1,5 +1,5 @@
 ---
-{"type":"mysql","title":"003-select","tags":null,"author":"codertoro","establish":"2025-05-19","update":"2025/05/19 17:43","dg-publish":true,"permalink":"/Projects/08-MySQL/003-select/","dgPassFrontmatter":true,"created":"2025-05-19T17:43:20.245+08:00","updated":"2025-05-19T17:55:21.287+08:00"}
+{"type":"mysql","title":"003-select","tags":null,"author":"codertoro","establish":"2025-05-19","update":"2025/05/19 17:55","dg-publish":true,"permalink":"/Projects/08-MySQL/003-select/","dgPassFrontmatter":true,"created":"2025-05-19T17:43:20.245+08:00","updated":"2025-05-21T11:56:19.229+08:00"}
 ---
 
 # 1. 基本语法
@@ -117,3 +117,27 @@ SELECT DISTINCT username FROM user2;
 - `format(X,D)` 
 	- `X` : 要格式化的数字
 	- `D` : 保留小数位数
+- `left(str,len)` 和 `right(str,len)` 
+	- `left(str,len)` : 从左边开始截取`len`个字符
+		- `str` : 原始字符串
+		- `len` : 截取的长度
+	- `right(str,len)` : 从右边开始截取`len` 个字符串
+- `substring(str,pos[,len])` 字符串的截取
+	- `str` : 要截取的字符串
+	- `pos` : 起始位置 **（从1开始）**
+	- `len` : 可选项： 截取的长度 **（单位是字符）**
+	- 注意： 
+		- `len` :如果不写，从 `pos` 其实位置开始，到最后结束
+		- `pos` 从 1 开始计数，**如果是负数，表示从字符串末尾开始**
+- `substring_index(str,delim,count)` 
+	- 截取字符串的函数，专门用来按照分隔符来截取字符串
+	- `str` ： 原始字符串
+	- `delim` ： 分隔符，如（`/` 、`,`）
+	- `count` ： 截取的方向和次数
+		- 正数： 从左往右第几个分隔符，保留左边部分
+		- 负数：从右往左第几个分隔符，保留右边部分
+- `locate(substr,str)`  
+	- 用于查找子字符串在字符串中的位置，返回字符串在目标字符串中的起始位置，如果找不到，返回 0。
+	- `substr` ： 要查找的字符串
+	- `str` ： 要搜索的目标字符串
+	- **返回值：** 
