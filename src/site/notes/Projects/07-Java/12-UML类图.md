@@ -1,22 +1,6 @@
 ---
-{"type":"java","title":"250429-关系数据模型","tags":["exercises/java"],"author":"codertoro","establish":"2025-04-29","update":"2025/05/22 17:17","dg-publish":true,"java":true,"permalink":"/Exercises/Java/250429/250429-关系数据模型/","dgPassFrontmatter":true,"created":"2025-04-29T09:35:38.651+08:00","updated":"2025-05-22T17:17:47.988+08:00"}
+{"type":"java","title":"12-UML类图","tags":null,"author":"codertoro","establish":"2025-04-29","update":"2025/05/14 13:47","dg-publish":true,"permalink":"/Projects/07-Java/12-UML类图/","dgPassFrontmatter":true,"created":"2025-04-29T09:52:47.363+08:00","updated":"2025-05-22T17:17:50.768+08:00"}
 ---
-
-![](https://img.codertoro.top/Bucket/Exercises/Java/20250429093846108.png)
-
-> [!success]- 答案
-D
-
-> [!success]- 题源
-![](https://img.codertoro.top/Bucket/Exercises/Java/20250429093913293.png)
-![](https://img.codertoro.top/Bucket/Exercises/Java/20250429093913293.png)
-
-> [!failure]- 错因
-没认真分析，对对象模型的关系模糊不清，比如关联关系，依赖关系，继承关系等，数据库与java的对应关系更不清楚,详细笔记见：
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/projects/07-java/12-uml/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
 
 # 1. 关系
 ![](https://img.codertoro.top/Bucket/Projects/07-Java/20250429165236204.png)
@@ -257,8 +241,3 @@ class Tree {
     }
 }
 ```
-
-
-</div></div>
-
-
