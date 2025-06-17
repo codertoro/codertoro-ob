@@ -1,5 +1,5 @@
 ---
-{"type":"mysql","title":"003-select","tags":null,"author":"codertoro","establish":"2025-05-19","update":"2025/05/22 16:30","dg-publish":true,"permalink":"/Projects/08-MySQL/003-select/","dgPassFrontmatter":true,"created":"2025-05-19T17:43:20.245+08:00","updated":"2025-05-22T17:04:12.348+08:00"}
+{"type":"mysql","title":"003-select","tags":null,"author":"codertoro","establish":"2025-05-19","update":"2025/05/22 17:04","dg-publish":true,"permalink":"/Projects/08-MySQL/003-select/","dgPassFrontmatter":true,"created":"2025-05-19T17:43:20.245+08:00","updated":"2025-06-12T16:18:58.470+08:00"}
 ---
 
 # 1. **1. 基本语法**
@@ -30,6 +30,7 @@ select 列1,列2,... from 表名 where 条件;
 	- 查找某列中包含`张` 的所有行
 11. `is null`
 12. `is not null`
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 3. 常用的复合条件
 1. `and`连接多个条件，所有条件都为true时，结果才为true
@@ -165,6 +166,7 @@ SELECT DISTINCT username FROM user2;
 	- 功能： 返回输入字符串的 MD 5 哈希值，结果是一个 32 位的 16 进制的字符串（即 128 位） **结果不可逆**， **但是不安全，因为可以建立密码库**
 - `row_count()` 
 	- 返回上一个 sql 语句影响的行数
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 5. 多表联查
 ## 5.1. 内连接

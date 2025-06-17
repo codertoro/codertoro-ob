@@ -1,5 +1,5 @@
 ---
-{"type":"jquery","title":"001-JQuery选择器","tags":null,"author":"codertoro","establish":"2025-04-08","update":"2025-04-08","dg-publish":true,"permalink":"/Projects/005-JQuery/001-JQuery选择器/","dgPassFrontmatter":true,"created":"2025-04-08T17:12:03.257+08:00","updated":"2025-04-09T14:43:49.836+08:00"}
+{"type":"jquery","title":"001-JQuery选择器","tags":null,"author":"codertoro","establish":"2025-04-08","update":"2025/06/12 16:11","dg-publish":true,"permalink":"/Projects/005-JQuery/001-JQuery选择器/","dgPassFrontmatter":true,"created":"2025-04-08T17:12:03.257+08:00","updated":"2025-06-12T16:12:54.998+08:00"}
 ---
 
 # 1. JQuery
@@ -22,6 +22,8 @@ $(function(){
 - 通配选择器
 - 组合选择器（并集选择器）
 - 组选择器（选择多个）
+<div class="page-break" style="page-break-before: always;"></div>
+
 ```html
 <div class="c" id="box">
 	<p></p>
@@ -55,6 +57,8 @@ $(function(){
 - `:even` 索引为偶数 
 - `:odd` 索引为奇数
 - `:not(selector)` 排除
+<div class="page-break" style="page-break-before: always;"></div>
+
 # 6. 可见性过滤选择器
 - `:visible` 
 - `:hidden`
@@ -80,6 +84,8 @@ visibility: hidden;
 - `:selected`
 > [!warning]+ :first和:first-child的区别
 - 优先级顺序不一样：
+<div class="page-break" style="page-break-before: always;"></div>
+
 ```html
 //示例1
 <ul>

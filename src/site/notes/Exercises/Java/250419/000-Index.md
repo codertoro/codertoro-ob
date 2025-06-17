@@ -3,10 +3,10 @@
 ---
 
 # 1. 今日错题
-- [[Exercises/Java/250419/250419-垃圾回收机制\|250419-垃圾回收机制]]
 - [[Exercises/Java/250419/250419-hashCode()和equals()关系\|250419-hashCode()和equals()关系]]
-- [[Exercises/Java/250419/250419-Java的值传递\|250419-Java的值传递]]
+- [[Exercises/Java/250419/250419-垃圾回收机制\|250419-垃圾回收机制]]
 - [[Exercises/Java/250419/250419-try-finally语句\|250419-try-finally语句]]
+- [[Exercises/Java/250419/250419-Java的值传递\|250419-Java的值传递]]
 - [[Exercises/Java/250419/250419-数据库相关\|250419-数据库相关]]
 
 { .block-language-dataview}
