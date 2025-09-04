@@ -1,20 +1,20 @@
 ---
-{"type":"springboot","title":"003-MybatisPlus","tags":null,"author":"codertoro","establish":"2025-07-02","update":"2025/07/02 21:05","dg-publish":true,"permalink":"/Projects/12-SpringBoot/003-MybatisPlus/","dgPassFrontmatter":true,"created":"2025-07-02T21:05:25.636+08:00","updated":"2025-07-02T23:16:20.224+08:00"}
+{"type":"springboot","title":"003-MybatisPlus","tags":null,"author":"codertoro","establish":"2025-07-02","update":"2025/07/02 23:16","dg-publish":true,"permalink":"/Projects/12-SpringBoot/003-MybatisPlus/","dgPassFrontmatter":true,"created":"2025-07-02T21:05:25.636+08:00","updated":"2025-07-23T14:15:28.900+08:00"}
 ---
 
-# **MyBatis-Plus 完整笔记**
+# 1. **MyBatis-Plus 完整笔记**
 
   
 
-## **一、常用方式总结**
+## 1.1. **一、常用方式总结**
 
   
 
-### **1.** 
+### 1.1.1. **1.** 
 
-### **BaseMapper<T>**
+### 1.1.2. **BaseMapper<T>**
 
-###  **自带方法**
+### 1.1.3.  **自带方法**
 
   
 
@@ -30,11 +30,11 @@
 |updateById(entity)|根据 ID 更新|
 |deleteById(id)|根据 ID 删除|
 
-### **2.** 
+### 1.1.4. **2.** 
 
-### **ServiceImpl**
+### 1.1.5. **ServiceImpl**
 
-###  **通用方法**
+### 1.1.6.  **通用方法**
 
   
 
@@ -49,7 +49,7 @@
 |removeById(id)|deleteById(id)|
 |saveOrUpdate(entity)|ID 判断 insert/update|
 
-### **3. Wrapper 条件构造器**
+### 1.1.7. **3. Wrapper 条件构造器**
 
 - QueryWrapper<T> / LambdaQueryWrapper<T>
     
@@ -66,7 +66,7 @@ qw.eq(User::getName, "张三").gt(User::getAge, 18);
 userMapper.selectList(qw);
 ```
 
-### **4. XML 自定义 SQL**
+### 1.1.8. **4. XML 自定义 SQL**
 
   
 
@@ -80,7 +80,7 @@ userMapper.selectList(qw);
 </select>
 ```
 
-## **二、推荐使用方案**
+## 1.2. **二、推荐使用方案**
 
 |**场景**|**推荐方法**|
 |---|---|
@@ -89,11 +89,11 @@ userMapper.selectList(qw);
 |动态更新|LambdaUpdateWrapper|
 |复杂查询、分组|XML 定制 SQL|
 
-## **三、方法名列表快照**
+## 1.3. **三、方法名列表快照**
 
   
 
-### **查询**
+### 1.3.1. **查询**
 
 - selectById(id)
     
@@ -106,7 +106,7 @@ userMapper.selectList(qw);
 
   
 
-### **新增**
+### 1.3.2. **新增**
 
 - insert(entity)
     
@@ -115,7 +115,7 @@ userMapper.selectList(qw);
 
   
 
-### **更新**
+### 1.3.3. **更新**
 
 - updateById(entity)
     
@@ -126,7 +126,7 @@ userMapper.selectList(qw);
 
   
 
-### **删除**
+### 1.3.4. **删除**
 
 - deleteById(id)
     
@@ -139,7 +139,7 @@ userMapper.selectList(qw);
 
   
 
-## **四、简单示例**
+## 1.4. **四、简单示例**
 
 ```
 // 条件查询
@@ -153,7 +153,7 @@ uw.eq(AddressDO::getUserId, userId).set(AddressDO::getIsDefault, 0);
 update(uw);
 ```
 
-## **五、总结**
+## 1.5. **五、总结**
 
 |**方法类型**|**特点**|**适用场景**|
 |---|---|---|
